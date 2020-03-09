@@ -1,0 +1,120 @@
+/*blaue Titelfarbe: #0066cc*/
+
+body {
+	background-color: #222222;
+}
+
+#header {
+	max-width: 100%;
+}
+
+.nav {
+	text-align: center;
+}
+
+ul {
+  	list-style-type: none;
+	text-decoration: none;
+	font-size: 140%;
+	color:white;
+	overflow: hidden;
+	background-color: #222222;
+	position:-webkit-sticky; /*Safari*/
+  	position:sticky;
+  	top: 0;
+	
+}
+li {
+  	display: inline;
+	text-align:center;
+}
+li a {
+  	color:white;
+	text-decoration: none;
+	font-family: mono45-headline, monospace;
+	font-style: normal;
+	font-weight: 500;
+  	padding: 14px 16px;
+}
+li a:hover {
+  	color:#0066cc;
+
+	
+}
+a {
+  padding: 12px;
+  background-color: #222222;
+}
+
+#intro{
+	margin:0px;
+	padding: 0px;
+}
+
+#intro i{
+	color:#0066cc;
+	font-size:400%;
+	float: left;
+	padding-left: 400px;
+	padding-right:20px;
+	/*border:1px solid;
+	border-color:yellowgreen;*/
+}
+
+.title-home {
+	color: white;
+	font-family: mono45-headline, monospace;
+	font-style: normal;
+	font-weight: 500;
+	margin-top: 60px;
+	font-size:400%;
+	margin:0;
+	padding:0;
+}
+
+.text1-home {
+	color: white;
+	font-family: mono45-headline, monospace;
+	font-style: normal;
+	font-weight: 500;
+	padding-top:30px;
+	font-size:180%;
+	/*margin:0;
+	padding:0;*/
+	text-align: center;
+}
+
+.text2-home {
+	color: white;
+	font-family: mono45-headline, monospace;
+	font-style: normal;
+	font-weight: 500;
+	padding-top:10px;
+	font-size:180%;
+	/*margin:0;
+	padding:0;*/
+	text-align: center;
+}
+.button-home {
+	text-align: center;
+}
+
+
+#button-home {
+ 	background-color: #222222;
+	border:none;
+  	color: white;
+ 	padding: 15px 25px;
+  	text-align: center;
+  	cursor: pointer;
+	font-family: mono45-headline, monospace;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 180%;
+	margin-top:30px;
+}
+#button-home button:hover{
+	color:blue;
+}
+
+
