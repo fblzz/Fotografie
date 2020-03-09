@@ -46,30 +46,13 @@ a {
   background-color: #222222;
 }
 
-#intro{
-	margin:0px;
-	padding: 0px;
-}
-
-#intro i{
-	color:#0066cc;
-	font-size:400%;
-	float: left;
-	padding-left: 400px;
-	padding-right:20px;
-	/*border:1px solid;
-	border-color:yellowgreen;*/
-}
-
 .title-home {
 	color: white;
 	font-family: mono45-headline, monospace;
 	font-style: normal;
 	font-weight: 500;
-	margin-top: 60px;
-	font-size:400%;
-	margin:0;
-	padding:0;
+	text-align: center;
+	font-size: 400%;
 }
 
 .text1-home {
@@ -111,10 +94,10 @@ a {
 	font-style: normal;
 	font-weight: 500;
 	font-size: 180%;
-	margin-top:30px;
+	margin-top:25px;
 }
-#button-home button:hover{
-	color:blue;
+#button-home:hover {
+	color:#0066cc;
 }
 
 
