@@ -233,3 +233,37 @@ body {
     left: 0%;
   }
 }
+
+.undertitle-home {
+	color: white;
+	font-family: mono45-headline, monospace;
+	font-style: normal;
+	font-weight: 500;
+	text-align: center;
+	font-size: 150%;
+	max-width: 1500px;
+}
+#undertitle{
+	margin: auto;
+  	width: 60%;
+  	padding: 10px;
+}
+.systemkamera-title {
+	color: white;
+	font-family: mono45-headline, monospace;
+	font-style: normal;
+	font-weight: 500;
+	text-align: center;
+	font-size: 320%;
+}
+
+.systemkamera-foto {
+	border-style: solid;
+  	border-color: red;
+	height:auto;
+	width:400px;
+	align-content: center;
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+}
